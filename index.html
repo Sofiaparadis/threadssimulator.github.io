@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thread Count — Prototype</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- classes first — sketch.js depends on all of these -->
+  <script src="Garment.js"></script>
+  <script src="Upgrade.js"></script>
+  <script src="Country.js"></script>
+
+  <!-- water and CO2 tracking, milestone popups -->
+  <script src="WaterCO2.js"></script>
+
+  <!-- intro/landing page — draws the start screen, switches gameState to "game" on click -->
+  <script src="intro.js"></script>
+
+  <!-- sidebar drawing — stats, buttons, upgrades, countries -->
+  <script src="ui.js"></script>
+
+  <!-- main sketch — setup(), draw(), and all game logic — loaded last because it depends on everything above -->
+  <script src="sketch.js"></script>
+</body>
+</html>
