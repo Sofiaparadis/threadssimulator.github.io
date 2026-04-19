@@ -32,9 +32,9 @@ function drawIntro() {
   textSize(15);
   textAlign(CENTER, TOP); // passing x, y, width, height to text() tells p5 to wrap the text inside that box instead of drawing it all on one line
   text(
-    "This is a production simulator is set inside a fast fashion factory. " +
+    "This is a production simulator set inside a fast fashion factory. " +
     "Click to make garments, buy upgrades to speed up production, and outsource work to countries around the world. " +
-    "As your factory scales up, the true cost of fast fashion (in water, carbon emissions) starts to show. " +
+    "As your factory scales up, the true cost of fast fashion starts to show, in water usage, and in carbon emissions. " +
     "Every garment has a price beyond the tag.",
     width / 2 - 280, height / 2 - 50, 560, 120
   );
